@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
 * main - Entry point
 *
 * Return - Always 0 (Success)
@@ -13,16 +13,15 @@ int main(void)
 	 * uppercase next
 	 */
 	int n;
-	int x;
 
 	for (n = '0'; n <= '9'; n++)
 	{
 		putchar(n);
 	}
-
-	for (x = 'a'; x <= 'f'; x++)
+		if (n <= '8')
 	{
-		putchar(x);
+		putchar(',');
+		putchar(' ');
 	}
 	{
 		putchar('\n');
