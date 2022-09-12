@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <ctype.h>
 /**
 * main - Entry point
 *
@@ -7,19 +7,15 @@
 */
 int main(void)
 {
-	/**
-	 * code below
-	 * lower alphabet first
-	 * uppercase next
-	 */
-	int n;
+
+	int n = '0';
 
 	for (n = '0'; n <= '9'; n++)
 	{
-		putchar(n);
-	}
-		if (n <= '8')
-	{
+		putchar((n %  10) + '0');
+	
+		if (n == 9)
+			continue;
 		putchar(',');
 		putchar(' ');
 	}
