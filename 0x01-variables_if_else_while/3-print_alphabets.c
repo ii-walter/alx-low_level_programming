@@ -3,15 +3,10 @@
 /**
  * main - Entry point
  *
- * Return - Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	/**
-	 * code below
-	 * lower alphabet first
-	 * uppercase next
-	 */
 	int n;
 	int x;
 
