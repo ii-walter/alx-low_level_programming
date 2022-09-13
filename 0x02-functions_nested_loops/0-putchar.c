@@ -1,16 +1,13 @@
 #include <stdio.h>
 
 /**
- *  Other headers go here
+ * main - check the code
+ *
+ * Return: Always 0.
  */
 
-int main()
+int main(void)
 {
-	/**
-	 * This is the code to print _putchar
-	 */
-
 	printf("_putchar\n");
-
 	return(0);
 }
