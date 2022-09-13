@@ -1,9 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes here */
-
-/* betty style doc for function main goes here */
+/**
+ * main - Entry point
+ *
+ * Return: ALways 0.
+ */
 
 int main(void)
 {
@@ -11,10 +13,6 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/**
-	 * this is the code
-	 * the loop for the answer
-	 */
 
 	if (n > '0')
 	{
