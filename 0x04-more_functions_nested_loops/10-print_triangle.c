@@ -2,7 +2,7 @@
 
 /**
  * print_triangle - print a triangle
- * @sixe: size of the triangle..
+ * @size: size of the triangle..
  *
  * Return: Always 0 (Success)
  */
