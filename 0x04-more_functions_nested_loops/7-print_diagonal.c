@@ -2,7 +2,7 @@
 
 /**
  * print_diagonal - print diagonal line
- * @n; number of times
+ * @n: number of times
  *
  * Return: Always 0 (Success)
  */
