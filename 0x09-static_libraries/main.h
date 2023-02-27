@@ -1,5 +1,5 @@
-#ifndef _HOLBERTON_H_
-#define _HOLBERTON_H_
+#ifndef _HEADER_FILE_
+#define _HEADER_FILE_
 
 int _putchar(char c);
 int _islower(int c);
